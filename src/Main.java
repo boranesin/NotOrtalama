@@ -25,7 +25,7 @@ public class Main {
         // buraya kadar tanımaları yapıp değişkenlerimiz/dersler e veri girişi sağladık
         //şimdi burada bu girdilerin toplamını bir değişkene atayıp kontrolleri sağlayacağız
         int toplam = mat + fizik + kimya + turkce + muzik + tarih ;
-        double ortalama = toplam / 6;
+        double ortalama = (toplam/6);
 
         String yiltekrari = ortalama >= 60 ? "Sınıfı geçti" : "Sınıfta galdın la!";
         System.out.println(ortalama);
